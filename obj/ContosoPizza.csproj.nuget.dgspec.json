@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ella/Documents/Code/DotNet/ContosoPizza/ContosoPizza.csproj": {}
+    "/Users/ella/Documents/Code/DotNet/MyGithub/ContosoPizza/ContosoPizza.csproj": {}
   },
   "projects": {
-    "/Users/ella/Documents/Code/DotNet/ContosoPizza/ContosoPizza.csproj": {
+    "/Users/ella/Documents/Code/DotNet/MyGithub/ContosoPizza/ContosoPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ella/Documents/Code/DotNet/ContosoPizza/ContosoPizza.csproj",
+        "projectUniqueName": "/Users/ella/Documents/Code/DotNet/MyGithub/ContosoPizza/ContosoPizza.csproj",
         "projectName": "ContosoPizza",
-        "projectPath": "/Users/ella/Documents/Code/DotNet/ContosoPizza/ContosoPizza.csproj",
+        "projectPath": "/Users/ella/Documents/Code/DotNet/MyGithub/ContosoPizza/ContosoPizza.csproj",
         "packagesPath": "/Users/ella/.nuget/packages/",
-        "outputPath": "/Users/ella/Documents/Code/DotNet/ContosoPizza/obj/",
+        "outputPath": "/Users/ella/Documents/Code/DotNet/MyGithub/ContosoPizza/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ella/.nuget/NuGet/NuGet.Config"

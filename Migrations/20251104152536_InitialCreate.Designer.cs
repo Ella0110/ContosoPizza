@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContosoPizza.Migrations
 {
     [DbContext(typeof(PizzaDb))]
-    [Migration("20251104144038_InitialCreate")]
+    [Migration("20251104152536_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
