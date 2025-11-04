@@ -1,0 +1,10 @@
+services:
+    # 数据库（使用现成镜像）
+    sqlserver:
+        container_name: sqlserver
+        image: mcr.microsoft.com/mssql/server:latest
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=YourStrong@Passw0rd123
+        ports:
+            - "1433:1433"
