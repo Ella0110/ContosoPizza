@@ -11,7 +11,7 @@ namespace ContosoPizza.Controllers;
 /// </summary>
 [ApiController]
 [Route("api/[controller]")]
-[Produces("application/json")]
+[Produces("application/json")] // 默认可以不写
 public class PizzaController : ControllerBase
 {
     private readonly IPizzaService _pizzaService;
@@ -29,6 +29,7 @@ public class PizzaController : ControllerBase
     /// <param name="query">查询参数</param>
     /// <returns>披萨分页列表</returns>
     [HttpGet]
+     // 对这个接口可能返回的 HTTP 状态码 + 响应 body 类型做标注，主要给 Swagger 生成更准确的文档
     [ProducesResponseType(typeof(ApiResponse<PaginatedList<PizzaDto>>), StatusCodes.Status200OK)]
     public async Task<ActionResult<ApiResponse<PaginatedList<PizzaDto>>>> GetAll([FromQuery] PizzaQueryDto query)
     {

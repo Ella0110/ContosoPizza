@@ -10,8 +10,8 @@ namespace ContosoPizza.Services;
 
 public class PizzaService : IPizzaService
 {
-    private readonly PizzaDb _db;
-    private readonly ILogger<PizzaService> _logger;
+    private readonly PizzaDb _db; // 数据库上下文
+    private readonly ILogger<PizzaService> _logger; // 日志记录器
 
     public PizzaService(PizzaDb db, ILogger<PizzaService> logger)
     {
